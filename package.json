@@ -2,6 +2,9 @@
   "name": "ddry-mocha",
   "version": "3.2.0-d0.0.3",
   "description": "Optional dependency wrapper mounting Mocha JS as ddry test harness",
+  "scripts": {
+    "test": "make test && make coveralls"
+  },
   "repository": {
     "type": "git",
     "url": "ddry/ddry-mocha"
@@ -16,7 +19,13 @@
   "author": "Vassiliy Pimkin <vassiliy.pimkin@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ddry": "0.0.3",
+    "ddry": "0.0.4",
     "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.16",
+    "mocha-lcov-reporter": "^1.2.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
   }
 }
