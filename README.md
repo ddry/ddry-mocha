@@ -11,3 +11,5 @@ Version reflects Mocha version, so your `package.json` remains clean yet informa
 ```coffeescript
 DataDriven = require 'ddry'
 ```
+
+**ddry** activity is reflected in semver pre-release area.

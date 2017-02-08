@@ -4,7 +4,7 @@
   "description": "Optional dependency wrapper mounting Mocha JS as ddry test harness",
   "repository": {
     "type": "git",
-    "url": "git@ddry-mocha.github.com:ddry/ddry-mocha.git"
+    "url": "ddry/ddry-mocha"
   },
   "files": [
     "LICENSE",
@@ -16,7 +16,7 @@
   "author": "Vassiliy Pimkin <vassiliy.pimkin@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ddry": "0.0.2",
+    "ddry": "0.0.3",
     "mocha": "^3.2.0"
   }
 }
