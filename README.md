@@ -6,7 +6,7 @@
 
 Optional dependency wrapper mounting Mocha JS as **ddry** test harness.
 
-Includes [ddry](https://www.npmjs.com/package/ddry) v0.0.14 and [Mocha](https://www.npmjs.com/package/mocha) v3.2.0.
+Includes [ddry](https://www.npmjs.com/package/ddry) v0.0.15 and [Mocha](https://www.npmjs.com/package/mocha) v3.2.0.
 
 Version reflects Mocha version, so your `package.json` remains clean yet informative, and **ddry** core remains accessible via
 
