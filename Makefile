@@ -23,4 +23,4 @@ tap:
 tape:
 	tape ./node_modules/ddry/ddry.js | node_modules/.bin/tap-spec
 
-test: tape tap
+test: mocha tape tap
