@@ -1,4 +1,4 @@
-.PHONY: co coveralls mo mocha ta tape test
+.PHONY: coveralls mocha tape test
 
 c- c-%:
 	rm -rf spec usecase
