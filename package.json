@@ -11,18 +11,20 @@
   },
   "files": [
     "LICENSE",
-    "README.md"
+    "README.md",
+    "bin/"
   ],
+  "bin": "bin/ddry-mocha",
   "keywords": [
     "mocha"
   ],
   "author": "Vassiliy Pimkin <vassiliy.pimkin@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ddry": "0.0.15",
-    "mocha": "^3.2.0"
+    "ddry": "0.1.19",
+    "mocha": "^3.4.1"
   },
   "devDependencies": {
-    "ddry-mocha-tape": "0.0.15"
+    "ddry-mocha-tape": "0.1.19"
   }
 }

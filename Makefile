@@ -11,13 +11,13 @@ coveralls:
 mocha:
 	./node_modules/.bin/mocha \
 		--no-exit \
-		spec/main.js \
+		./node_modules/ddry/ddry.js \
 		--check-leaks
 
 tap:
-	node_modules/.bin/tap spec/main.js
+	node_modules/.bin/tap ./node_modules/ddry/ddry.js
 
 tape:
-	tape spec/main.js | node_modules/.bin/tap-spec
+	tape ./node_modules/ddry/ddry.js | node_modules/.bin/tap-spec
 
 test: tape tap

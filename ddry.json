@@ -1,0 +1,8 @@
+{
+  "spec": "spec",
+  "title": "ddry and Mocha dependencies presence",
+  "code": "usecase",
+  "moduleTitles": {
+    "dependencies": "ddry-mocha dependencies"
+  }
+}
