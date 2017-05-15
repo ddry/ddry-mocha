@@ -6,7 +6,10 @@ c- c-%:
 
 coveralls:
 	make tape tap
-	istanbul cover ./node_modules/mocha/bin/_mocha spec/main.js --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
+	istanbul cover ./node_modules/mocha/bin/_mocha ./node_modules/ddry/ddry.js \
+	--report lcovonly -- -R spec && \
+	cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && \
+	rm -rf ./coverage
 
 mocha:
 	./node_modules/.bin/mocha \
