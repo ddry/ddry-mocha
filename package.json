@@ -1,6 +1,6 @@
 {
   "name": "ddry-mocha",
-  "version": "3.4.1-d0.1.19",
+  "version": "3.4.1-d0.1.20",
   "description": "Optional dependency wrapper mounting Mocha JS as ddry test harness",
   "scripts": {
     "test": "make coveralls"
