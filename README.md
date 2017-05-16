@@ -70,7 +70,7 @@ Other three are
 
 You may consider globally installing them all with one package instead of playing with only-one-harness ones.
 
-However, if you decided to use only TAP, easy access to `ddry-mocha` command is obtained by installing this package globally:
+However, if you decided to use only Mocha, easy access to `ddry-mocha` command is obtained by installing this package globally:
 
 ```sh
 $ sudo npm i -g ddry-mocha
